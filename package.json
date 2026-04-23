@@ -1,0 +1,11 @@
+{
+  "name": "pixelpost-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "sh -c 'npm run dev:backend & npm run dev:frontend'",
+    "dev:backend": "npm --prefix Backend run dev",
+    "dev:frontend": "npm --prefix Frontend run dev",
+    "start:backend": "npm --prefix Backend run start",
+    "build": "npm --prefix Frontend run build"
+  }
+}
